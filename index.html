@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left">
+        <div class="container">
+            <img src="odin-lined.png">
+            <p class="odin">ODIN</p>          
+        </div>
+    </div>
+    <div class="right">
+        <div class="top">
+            <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </div>
+        <div class="bottom">    
+            <form action="#" method="post">
+                <div class="testing">Let's do this!</div>
+                <fieldset>
+                    <span>
+                        <div><label for="first_name">FIRST NAME</label></div>
+                        <div><input type="text" name="first_name" id="first_name" placeholder="John"></div>
+                    </span>
+                    <span>
+                        <div><label for="last_name">LAST NAME</label></div>
+                        <div><input type="text" name="last_name" id="last_name" placeholder="Doe"></div>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <span>
+                        <div><label for="user_email">EMAIL</label></div>
+                        <div><input type="email" id="user_email" name="user_email" placeholder="you@example.com"></div>
+                    </span>
+                    <span>
+                        <div><label for="phone_num">PHONE NUMBER</label></div>
+                        <div><input type="text" name="phone_num" id="phone_num" placeholder="0434567890" pattern="(\d{10}?)"></div>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <span>
+                        <div><label for="pw">PASSWORD</label></div>
+                        <div><input type="password" name="pw" id="pw" minlength="12"></div>
+                    </span>
+                    <span>
+                        <div><label for="confirm_pw">CONFIRM PASSWORD</label></div>
+                        <div><input type="password" name="confirm_pw" id="confirm_pw" minlength="12"></div>
+                    </span>
+                </fieldset>
+                <button type="submit">Create Account</button>
+                <p class="last">Already have an account? <a href="#">Log in</a></p>
+            </form> 
+        </div>
+    </div>
+    
+</body>
+</html>
